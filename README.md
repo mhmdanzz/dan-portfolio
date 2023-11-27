@@ -138,7 +138,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
         <div class="intro">
 		<div style="text-align: center;">
             <h1>Welcome!</h1>
-            <p>Thank you for visiting my (first) portfolio page! <br><br> I am Danieal, or you can call me Dan. </br> I am an IM student in UniSZA. <br><br> Curious to know what projects I have done? Go to the 'Projects' section! </br></br></br> P/S: You can click 'Projects' at the top of the page to go there instantly. ;) </p>
+            <p>Thank you for visiting my (first) portfolio page! <br><br> I am Danieal, or you can call me Dan. I am an IM student in UniSZA. <br><br> Curious to know what projects I have done? Go to the 'Projects' section! <br> P/S: You can click 'Projects' at the top of the page to go there instantly. ;) </p>
         </div>
 		</div>
     </section>
@@ -149,7 +149,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
             <img src="https://i.ibb.co/n0xYWBg/Blue-Passport-Background.jpg" alt="dak encem">
             <div style="text-align: center;">
 			<br>
-			My full name is Muhammad Danieal bin Rahim, and I am 21 years old. <br><br> I am currently IM3A. I have a passion for graphic designing, but somehow I have to learn how to code a website. </br><br> I am from Johor, and I love Photography, Pokemon, Monster Hunter, and Vocaloid! <br><br> Nice to meet you! </br></br></br></br> </p>
+			My full name is Muhammad Danieal bin Rahim, and I am 21 years old. <br><br> I am currently IM3A. I have a passion for graphic designing, but somehow I have to learn how to code a website. <br> I am from Johor, and I love Photography, Pokemon, Monster Hunter, and Vocaloid! <br><br> Nice to meet you!
 			</div>
 		</div>
     </section>
@@ -210,8 +210,6 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
 	
 	<br>
 	<br>
-	</br>
-	</br>
 	
 	<div style="text-align: center;">
     You can also reach me via social medias, by clicking the links below! ^^
