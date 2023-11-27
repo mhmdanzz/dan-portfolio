@@ -95,6 +95,15 @@ button:hover {
     color: #007bff;
 }
 
+.about-me img {
+    max-width: 30%; /* Adjust the percentage to your preference */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+
 
 	</style>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
@@ -129,7 +138,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
         <div class="intro">
 		<div style="text-align: center;">
             <h1>Welcome!</h1>
-            <p>Thank you for visiting my (first) portfolio page! <br><br> I am Danieal, or you can call me Dan. I am an IM student in UniSZA. <br><br> Curious to know what projects I have done? Go to the 'Projects' section! <br> P/S: You can click 'Projects' at the top of the page to go there instantly. ;) </p>
+            <p>Thank you for visiting my (first) portfolio page! <br><br> I am Danieal, or you can call me Dan. </br> I am an IM student in UniSZA. <br><br> Curious to know what projects I have done? Go to the 'Projects' section! </br></br></br> P/S: You can click 'Projects' at the top of the page to go there instantly. ;) </p>
         </div>
 		</div>
     </section>
@@ -137,9 +146,10 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     <section id="about">
         <div class="about-me">
             <h2>About Me</h2>
-            <img src="[https://media.tenor.com/Ow4aJ_k2rgkAAAAC/cat-monday-left-me-broken-cat.gif](https://lh3.googleusercontent.com/pw/ADCreHdJT5C9IFScwj6W2iLfwi5UYe3hr81C_bQZT2bpImPfrs21yEkClq8_Rq7jl28eqBFwhJ8RTbx2WKB6__VXF-nPg6wwrbg_NL9xguJILhxfQO8D54X6bfYbEAyq4VEwqANokAmD2m5L3zutaPcSWxyDfnfQaZxfdFNgoq6gR0qIvq_OZHcLCZog7QfOtGeCpZfWO8iRoZmNHL2SAVGtn287Gev0D83btnHYrolWNwnQnw30Z-K2Oy_Wp3SM4iBMqKNksE6kXDsLQyep8T-UKK-P20jMJR7Li5ciq01g8xb4C0NN2LFH6lq861evH8yvCEXysx7YlkdSwTOelA-guPUpZV4IpdmM20OBe0wzTfJYK_d3yCiUp7T-eNAJzo52E5L_UcSy4VBXJwbRdiiUJMBf7rIWhNOc4sKKjReu6WoEPuhPzlm3CUrpnlEoqYlG4YoGvPrIlf29eWt2gFWqdTkqXgW9CfRf7ASjWC0BAqa5sq_MjPzhrPe15H4XsZs1Ft3sWbD_VkZLFxAEtOBSWx23XY-SW7voCaYPjc3T0CE2KGRN_9ng2IIdiP4aQ4EGUyNCqGC0HUIPDlELeQ95rld-QtSWkzPm2YxvWngs87gGztspMXCWdilK6joeZtSum0NbLs3C7sjInnXQf71VI9IBt7RjG3IF5SNT49fGbkYQkXfHCdYRgf9oyp_ZGIO1j5TQeQ7wN67YmFhVa5uiqKyIz5sZiWBWhBAUbM0uckAn3zMSfM-DdrtqmGhtA1Uk4KRwYe57q1LRk7AnvG3dsuq0L1WsS0X08jPZBlJcL7qF3P5QrqU1T28Z3eHcqy2GFZ1i2THS6qmOGyheX_DR34YJLLzkJg0AEpyl6pYI4CHPe7aliS1zoxa0qktameSpd_fJctpNlzeeLsVFeTAmtzkQzTM8PXivP-Xt20MooxzAx-I-AEjM_vs-2y_ADywUVpZKWfplbR-j=w1065-h599-s-no-gm?authuser=0)" alt="dak encem">
+            <img src="https://i.ibb.co/n0xYWBg/Blue-Passport-Background.jpg" alt="dak encem">
             <div style="text-align: center;">
-			My full name is Muhammad Danieal bin Rahim, and I am 21 years old. <br><br> I am currently IM3A. I have a passion for graphic designing, but somehow I have to learn how to code a website. <br> I am from Johor, and I love Photography, Pokemon, Monster Hunter, and Vocaloid! <br><br> Nice to meet you!
+			<br>
+			My full name is Muhammad Danieal bin Rahim, and I am 21 years old. <br><br> I am currently IM3A. I have a passion for graphic designing, but somehow I have to learn how to code a website. </br><br> I am from Johor, and I love Photography, Pokemon, Monster Hunter, and Vocaloid! <br><br> Nice to meet you! </br></br></br></br> </p>
 			</div>
 		</div>
     </section>
@@ -147,6 +157,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     <section id="projects">
         <div class="projects">
             <h2>Projects</h2>
+			<p><i> Welcome! Take your time to observe all of them. :)</p></i>
 
             <!-- Project 1 -->
             <div class="project-card" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)">
@@ -182,10 +193,10 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     <div class="contact">
         <h2>Contact Me</h2>
         <form id="contact-form">
-            <label for="name">Name:</label>
+            <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required>
 
-            <label for="email">Email:</label>
+            <label for="email">Your E-mail:</label>
             <input type="email" id="email" name="email" required>
 
             <label for="message">Message:</label>
@@ -199,6 +210,8 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
 	
 	<br>
 	<br>
+	</br>
+	</br>
 	
 	<div style="text-align: center;">
     You can also reach me via social medias, by clicking the links below! ^^
