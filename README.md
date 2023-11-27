@@ -138,7 +138,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
         <div class="intro">
 		<div style="text-align: center;">
             <h1>Welcome!</h1>
-            <p>Thank you for visiting my (first) portfolio page! <br><br> I am Danieal, or you can call me Dan. I am an IM student in UniSZA. <br><br> Curious to know what projects I have done? Go to the 'Projects' section! <br> P/S: You can click 'Projects' at the top of the page to go there instantly. ;) </p>
+            <p>Thank you for visiting my (first) portfolio page! <br><br> I am Danieal, or you can call me Dan. I am an IM student in UniSZA. <br><br> Curious to know what projects I have done? Go to the 'Projects' section! <br><br> (P/S: You can click 'Projects' at the top of the page to go there instantly.) </p>
         </div>
 		</div>
     </section>
@@ -157,7 +157,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     <section id="projects">
         <div class="projects">
             <h2>Projects</h2>
-			<p><i> Welcome! Take your time to observe all of them. :)</p></i>
+			<p><i> Welcome! Take your time to observe all of them. :) </i>
 
             <!-- Project 1 -->
             <div class="project-card" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)">
@@ -186,9 +186,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
                 <p>Technologies used: HTML, CSS, JavaScript</p>
                 <a href="https://github.com/mhmdanzz/assignment/blob/4da9a63f80a5bb710c63c7ade68b0006b5911aee/triviaquiz.html" target="_blank">--> GitHub <--</a>
             </div>
-        </div>
-    </section>
-
+	    
     <section id="contact">
     <div class="contact">
         <h2>Contact Me</h2>
@@ -226,6 +224,3 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
 
 
     <script src="script.js"></script>
-</body>
-
-</html>
